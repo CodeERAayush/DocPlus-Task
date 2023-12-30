@@ -3,4 +3,13 @@ export const Images={
     exp:require('../Images/Iconexp.png'),
     patients:require('../Images/Patients.png'),
     star_filled:require('../Images/Vectorstar.png'),
+    user:require('../Images/iconuser.png'),
+    cashImage:require('../Images/cashImg.png'),
+    pen:require('../Images/pen.png'),
+    calender:require('../Images/calender.png'),
+    virtual:require('../Images/virtual.png'),
+    clinic:require('../Images/Groupclinic.png'),
+    plus:require('../Images/plusIcon.png'),
+    patientImg:require('../Images/patientImg.png'),
+    starBunch:require('../Images/starBunch.png'),
 }

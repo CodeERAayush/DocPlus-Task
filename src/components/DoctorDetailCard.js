@@ -35,7 +35,7 @@ const DoctorDetailCard = () => {
 export default DoctorDetailCard
 
 const styles = StyleSheet.create({
-    card:{height:hp(25),width:wp(94),alignSelf:'center',marginVertical:hp(2)},
+    card:{height:hp(22),width:wp(90),alignSelf:'center',marginTop:hp(2)},
     top:{width:'100%',flexDirection:'row',height:'35%',justifyContent:'space-between'},
     heading:{fontFamily:Fonts?.SemiBold,fontSize:24,color:Colors?.Black},
     subHeading:{fontSize:16,fontFamily:Fonts?.Regular,color:Colors?.Primary},

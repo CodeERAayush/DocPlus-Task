@@ -7,21 +7,24 @@ import Carousal from '../../reusables/Carousal'
 import { imagesArray } from '../../helpers'
 import DoctorDetailCard from '../../components/DoctorDetailCard'
 import BookButton from '../../components/BookButton'
+import MiscCard from '../../components/MiscCard'
 
 const Home = () => {
   return (
     <View style={styles?.main_screen}>
       <StatusBar
-      backgroundColor={Colors?.backGround}
+        backgroundColor={Colors?.backGround}
       />
-      <Header/>
+      <Header />
       <Carousal
-      images={imagesArray}
+        images={imagesArray}
       />
       <ScrollView scrollEnabled>
-          <DoctorDetailCard/>
+        <DoctorDetailCard />
+        <MiscCard />
       </ScrollView>
-     <BookButton/>
+      <BookButton />
+
     </View>
 
   )
@@ -30,8 +33,8 @@ const Home = () => {
 export default Home
 
 const styles = StyleSheet.create({
-    main_screen:{
-        flex:1,
-        backgroundColor:Colors?.backGround,
-    }
+  main_screen: {
+    flex: 1,
+    backgroundColor: Colors?.backGround,
+  }
 })

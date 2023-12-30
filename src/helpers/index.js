@@ -33,3 +33,18 @@ export const docData=[
   value:"4.5"
 },
 ]
+
+export const feesData=[
+  {
+    heading:"In-Clinic Appointment",
+    fees_dollar:'$ 80.70',
+    rupee:'Rs. 1400',
+    icon:Images?.clinic
+  },
+  {
+    heading:"Virtual Appointment",
+    fees_dollar:'$ 80.70',
+    rupee:'Rs. 1400',
+    icon:Images?.virtual
+  },
+]

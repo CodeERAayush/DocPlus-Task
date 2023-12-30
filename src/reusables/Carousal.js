@@ -40,19 +40,19 @@ const Carousal = ({ images }) => {
                 showsHorizontalScrollIndicator={false}
                 onViewableItemsChanged={onViewableItemsChanged}
                 renderItem={({ item, index }) =>
-                <View style={{ height: hp(30), width: wp(100) }}>
-                <Image
-                    source={item}
-                    style={{ height: hp(30), width: '100%' }}
-                    resizeMode='contain'
-                />
-                </View>
+                    <View style={{ height: hp(30), width: wp(100) }}>
+                        <Image
+                            source={item}
+                            style={{ height: hp(30), width: '100%' }}
+                            resizeMode='contain'
+                        />
+                    </View>
                 }
             />
 
 
             <View style={styles?.counter}>
-                <Text>{scrollIndex + 1}/{images?.length}</Text>
+                <Text>{scrollIndex+1}/{images?.length}</Text>
             </View>
         </View>
     )
